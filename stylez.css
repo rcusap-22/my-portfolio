@@ -54,6 +54,17 @@ body {
   position: relative;
 }
 
+.nav-brand {
+  text-decoration: none;
+  color: #eaeaea;
+  font-size: 0.95rem;
+  position: relative;
+
+    list-style: none;
+  display: flex;
+  gap: 28px;
+}
+
 .nav-links a::after {
   content: "";
   position: absolute;
